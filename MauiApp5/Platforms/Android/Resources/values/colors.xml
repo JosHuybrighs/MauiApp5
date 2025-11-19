@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#FFFFFF</color>
+  
+  <!--Gebruikt voor bv. background kleur van de status bar-->
+  <color name="colorPrimaryDark">#FFFFFF</color>
+  
+  <color name="colorAccent">#2B0B98</color>
+</resources>

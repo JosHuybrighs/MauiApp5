@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Main app theme (inherits material no-actionbar) -->
+  <style name="Maui.MainTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <!-- Make sure the window is not treated as translucent by default -->
+    <item name="android:windowIsTranslucent">false</item>
+    <!-- Let the Window draw system bar backgrounds (so SetStatusBarColor works reliably) -->
+    <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    <!-- Start with transparent bars so the app doesn't show a default color before you set it -->
+    <item name="android:statusBarColor">@android:color/transparent</item>
+    <item name="android:navigationBarColor">@android:color/transparent</item>
+    <!-- No action bar, adjust as needed -->
+    <item name="android:windowNoTitle">true</item>
+  </style>
+
+  <!-- Splash theme usually referenced from MainActivity attribute -->
+  <!--<style name="Maui.SplashTheme" parent="Maui.MainTheme">
+    --><!-- splash drawable or color (adjust if you use a different splash resource) --><!--
+    <item name="android:windowBackground">@drawable/launch_background</item>
+  </style>-->
+</resources>
